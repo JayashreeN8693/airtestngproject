@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9763" started-at="2023-10-05T17:59:09Z" finished-at="2023-10-05T17:59:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9763" started-at="2023-10-05T17:59:09Z" finished-at="2023-10-05T17:59:19Z">
+      <class name="org.AirBNB.AirLogin">
+        <test-method status="PASS" signature="tC1()[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC1" is-config="true" duration-ms="3877" started-at="2023-10-05T23:29:09Z" finished-at="2023-10-05T23:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC1 -->
+        <test-method status="PASS" signature="tC2()[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC2" is-config="true" duration-ms="962" started-at="2023-10-05T23:29:13Z" finished-at="2023-10-05T23:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC2 -->
+        <test-method status="PASS" signature="tC2()[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC2" is-config="true" duration-ms="1880" started-at="2023-10-05T23:29:13Z" finished-at="2023-10-05T23:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC2 -->
+        <test-method status="PASS" signature="tC3(java.lang.String)[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC3" duration-ms="4600" started-at="2023-10-05T23:29:14Z" finished-at="2023-10-05T23:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jayashreen8693@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC3 -->
+        <test-method status="FAIL" signature="tC4(java.lang.String)[pri:1, instance:org.AirBNB.AirLogin@72d818d1]" name="tC4" duration-ms="412" started-at="2023-10-05T23:29:15Z" finished-at="2023-10-05T23:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9902498230]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: MicrosoftEdge=117.0.2045.47)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b552c2cc7b76fafbb735ae705f031869, clickElement {id=196E7DEB3F6E914287771670BEC4A371_element_12}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.47, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57869}, msedge: {msedgedriverVersion: 117.0.2045.47 (b75fe6866687..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57869/devtoo..., se:cdpVersion: 117.0.2045.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (b552c2cc7b76fafbb735ae705f031869)] -> xpath: //span[@class='t1dqvypu dir dir-ltr']]
+Session ID: b552c2cc7b76fafbb735ae705f031869]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=117.0.2045.47)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b552c2cc7b76fafbb735ae705f031869, clickElement {id=196E7DEB3F6E914287771670BEC4A371_element_12}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.47, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57869}, msedge: {msedgedriverVersion: 117.0.2045.47 (b75fe6866687..., userDataDir: C:\Users\HP\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57869/devtoo..., se:cdpVersion: 117.0.2045.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (b552c2cc7b76fafbb735ae705f031869)] -> xpath: //span[@class='t1dqvypu dir dir-ltr']]
+Session ID: b552c2cc7b76fafbb735ae705f031869
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at org.AirBNB.AirLogin.tC4(AirLogin.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC4 -->
+        <test-method status="PASS" signature="tC5()[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC5" is-config="true" duration-ms="0" started-at="2023-10-05T23:29:15Z" finished-at="2023-10-05T23:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC5 -->
+        <test-method status="PASS" signature="tC5()[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC5" is-config="true" duration-ms="2" started-at="2023-10-05T23:29:19Z" finished-at="2023-10-05T23:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC5 -->
+        <test-method status="PASS" signature="tC6()[pri:0, instance:org.AirBNB.AirLogin@72d818d1]" name="tC6" is-config="true" duration-ms="307" started-at="2023-10-05T23:29:19Z" finished-at="2023-10-05T23:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC6 -->
+      </class> <!-- org.AirBNB.AirLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

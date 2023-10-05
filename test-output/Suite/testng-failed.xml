@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="mail" value="jayashreen8693@gmail.com"/>
+  <parameter name="mobile" value="9902498230"/>
+  <test thread-count="5" name="Test">
+    <parameter name="mail" value="jayashreen8693@gmail.com"/>
+    <parameter name="mobile" value="9902498230"/>
+    <classes>
+      <class name="org.AirBNB.AirLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="methods">
+    <parameter name="mail" value="jayashreen8693@gmail.com"/>
+    <parameter name="mobile" value="9902498230"/>
+    <classes>
+      <class name="org.AirBNB.AirLogin">
+        <methods>
+          <include name="tC6"/>
+          <include name="tC4" invocation-numbers="0"/>
+          <include name="tC5"/>
+          <include name="tC2"/>
+          <include name="tC1"/>
+        </methods>
+      </class> <!-- org.AirBNB.AirLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
