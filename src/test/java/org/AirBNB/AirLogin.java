@@ -64,10 +64,10 @@ public class AirLogin extends UtilityClass{
 	@AfterMethod
 	public void tC5() {
 		DateandTime();
+		printTitle();
 	}
 	@AfterClass
 	public void tC6() {
-		printTitle();
 		printUrl();
 		Minimize();
 	}
